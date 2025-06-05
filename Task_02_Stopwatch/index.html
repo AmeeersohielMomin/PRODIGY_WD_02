@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ameersohiel's Stopwatch App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stopwatch-container">
+        <h1>Stopwatch</h1>
+        <div id="display" class="display">
+            <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">000</span>
+        </div>
+        <div class="controls">
+            <button id="startButton">Start</button>
+            <button id="pauseButton" disabled>Pause</button>
+            <button id="resetButton" disabled>Reset</button>
+            <button id="lapButton" disabled>Lap</button>
+        </div>
+        <div class="laps-container">
+            <h2>Lap Times</h2>
+            <ul id="lapsList">
+                </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
